@@ -1,16 +1,16 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
- * main - main function
+ * main -main function
  *
- * Return: 0 when successful
+ * Return: 0 when successfull
  */
 int main(void)
 {
-	char i;
-	
+	int i;
+
 	for (i = 0 ; i < 10 ; i++)
 		putchar(i + '0');
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
